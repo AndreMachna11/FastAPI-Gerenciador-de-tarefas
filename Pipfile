@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 fastapi = "*"
 uvicorn = "*"
+python-dotenv = "*"
+psycopg2 = "*"
 
 [dev-packages]
 

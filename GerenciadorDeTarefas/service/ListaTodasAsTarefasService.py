@@ -1,0 +1,2 @@
+class ListaTodasAsTarefasService():
+    pass
