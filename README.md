@@ -10,7 +10,7 @@
 
   -EC2: Para hostear a API
   
-* Deixo claro que o arquivo .env so esta visivel neste repositorio para fins de avaliações, uma vez que contém credencias sensiveis. Normalmente não estaria presente no repositorio do projeto
+* obs: o arquivo .env so esta visivel neste repositorio para fins de avaliações, uma vez que contém credencias sensiveis. Normalmente não estaria presente no repositorio do projeto
 
 # Instruçoes para Execução Local
 
