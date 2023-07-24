@@ -45,3 +45,10 @@ Todos os endpoints exigem um token no header da requisição, nesta api ele é u
 d9520359df50574372fb8022fb56b90671cbf5c388132953a69b28d5ec37bfb6
 ```
 
+No endpoint de /gerenciador-de-tarefas/dados-tarefas/ a busca é feita pelo json que é inputado, seguindo uma ordem de prioridade:
+-id_tarefa
+-titulo
+-descricao
+-status
+
+Onde se estiver presente no json um de maior prioridade, este será usado
