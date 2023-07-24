@@ -56,7 +56,8 @@ No endpoint de /gerenciador-de-tarefas/dados-tarefas/ a busca é feita pelo json
 -status
 
 
-Onde se estiver presente no json um de maior prioridade, este será usado
+Onde se estiver presente no json um de maior prioridade, este será usado, por exemplo:
+
 
     {
       "id_tarefa": "string",
@@ -65,7 +66,7 @@ Onde se estiver presente no json um de maior prioridade, este será usado
       "status": "string"
     }
 
-    ou 
+    id_tarefa será usado na busca 
 
     {
       "titulo": "string",
@@ -73,4 +74,11 @@ Onde se estiver presente no json um de maior prioridade, este será usado
       "status": "string"
     }
 
-    e assim por diante
+    titulo será usado na busca
+
+    {
+      "descricao": "string",
+      "status": "string"
+    }
+
+    descrição será usado na busca, e assim por diante
