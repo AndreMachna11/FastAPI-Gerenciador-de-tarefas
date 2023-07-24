@@ -82,3 +82,5 @@ titulo será usado na busca
     }
 
 descrição será usado na busca, e assim por diante
+
+Todos os outro enpoints o proprio Swagger em https:// ja se faz suficiente
