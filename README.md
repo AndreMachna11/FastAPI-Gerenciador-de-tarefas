@@ -66,7 +66,7 @@ Onde se estiver presente no json um de maior prioridade, este será usado, por e
       "status": "string"
     }
 
-    id_tarefa será usado na busca 
+id_tarefa será usado na busca 
 
     {
       "titulo": "string",
@@ -74,11 +74,11 @@ Onde se estiver presente no json um de maior prioridade, este será usado, por e
       "status": "string"
     }
 
-    titulo será usado na busca
+titulo será usado na busca
 
     {
       "descricao": "string",
       "status": "string"
     }
 
-    descrição será usado na busca, e assim por diante
+descrição será usado na busca, e assim por diante
