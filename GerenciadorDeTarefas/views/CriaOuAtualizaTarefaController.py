@@ -1,14 +1,14 @@
 from fastapi import APIRouter
 from fastapi import Depends
 from fastapi.responses import JSONResponse
-from Models.tarefa import Tarefa 
+from Models.tarefa import TarefaObrigatoria 
 from GerenciadorDeTarefas.service.CriaOuAtualizaTarefaService import CriaOuAtualizaTarefaService
 from Autenticacao.autenticacao import authenticate
 
 router = APIRouter(prefix="/gerenciador-de-tarefas")
 
 @router.post("/insere-ou-atualiza-tarefa")
-async def insere_ou_atualiza_tarefa(tarefa : Tarefa,token : str = Depends(authenticate)):
+async def insere_ou_atualiza_tarefa(tarefa : TarefaObrigatoria,token : str = Depends(authenticate)):
     
     id_tarefa = tarefa.id_tarefa
     titulo = tarefa.titulo
