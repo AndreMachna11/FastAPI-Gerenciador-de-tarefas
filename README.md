@@ -1,7 +1,7 @@
 # FastAPI-Gerenciador-de-Tarefas
 
 * API desenvolvida usando o framework FastAPI para prover serviços a um gerenciador de tarefas
-* Todo o processo de deploy foi feito e sua documentação interativa pode ser acessada em https://
+* Todo o processo de deploy foi feito e sua documentação interativa pode ser acessada em https://gerenciador-tarefas.dev-andre-machna.com.br/docs
 * Serviços AWS utilizados
 
   -RDS: Para banco de dados postgreSQL
@@ -83,4 +83,4 @@ titulo será usado na busca
 
 descrição será usado na busca, e assim por diante
 
-Todos os outro enpoints o proprio Swagger em https:// ja se faz suficiente
+Todos os outro enpoints o proprio Swagger em https://gerenciador-tarefas.dev-andre-machna.com.br/docs ja se faz suficiente
