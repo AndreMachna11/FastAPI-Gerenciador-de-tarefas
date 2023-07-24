@@ -12,7 +12,7 @@
 
 # Instruçoes para Execução
 ```sh
-git clone https://
+git clone https://github.com/AndreMachna11/FastAPI-Gerenciador-de-tarefas.git
 ```
 
 ```sh
