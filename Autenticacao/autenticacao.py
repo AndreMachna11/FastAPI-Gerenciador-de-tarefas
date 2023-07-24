@@ -7,6 +7,7 @@ load_dotenv(find_dotenv())
 
 api_key_header = APIKeyHeader(name="token", auto_error=True)
 
+#Função que garante a autenticação, para ser ultilizada antes da execução de qualquer endpoint
 def authenticate(token: str = Depends(api_key_header)):
     if token != os.getenv('API_STATIC_KEY'):
         raise HTTPException(
