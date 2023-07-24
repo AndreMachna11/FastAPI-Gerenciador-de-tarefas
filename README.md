@@ -10,7 +10,7 @@
 
   -EC2: Para hostear a API
 
-# Instruçoes para Execução
+# Instruçoes para Execução Local
 
 * O Python 3.11 ou superior e o git devem estar instalados em sua maquina. Depois segue-se a sequencia de comandos
 
