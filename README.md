@@ -57,3 +57,20 @@ No endpoint de /gerenciador-de-tarefas/dados-tarefas/ a busca é feita pelo json
 
 
 Onde se estiver presente no json um de maior prioridade, este será usado
+
+   {
+      "id_tarefa": "string",
+      "titulo": "string",
+      "descricao": "string",
+      "status": "string"
+    }
+
+    ou 
+
+    {
+      "titulo": "string",
+      "descricao": "string",
+      "status": "string"
+    }
+
+    e assim por diante
